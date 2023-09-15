@@ -1,0 +1,45 @@
+/* colores */
+@import url('./buttonImplements/buttonColors.css');
+
+/* sizes */
+@import url('./buttonImplements/buttonSizes.css');
+
+/* sombras */
+@import url('./buttonImplements/buttonBoxShadowColors.css');
+
+/* iconos */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.button {
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 20px;
+}
+
+.button p {
+    font-size: 14px;
+}
+
+.disabled {
+    color: #9E9E9E;
+}
+
+/* variantes */
+.outline {
+    background-color: transparent !important;
+}
+
+.text {
+    background-color: transparent !important;
+    color: #3D5AFE;
+}

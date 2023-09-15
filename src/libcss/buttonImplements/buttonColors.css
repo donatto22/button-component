@@ -1,0 +1,44 @@
+/* colores */
+.default {
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    color: #3F3F3F;
+}
+
+.default:is(:hover, :focus) {
+    background-color: #AEAEAE;
+    border: 1px solid #AEAEAE;
+}
+
+.primary {
+    background-color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    color: white;
+}
+
+.primary:is(:hover, :focus) {
+    background-color: #0039CB;
+    border: 1px solid #0039CB;
+}
+
+.secondary {
+    background-color: #455A64;
+    border: 1px solid #455A64;
+    color: white;
+}
+
+.secondary:is(:hover, :focus) {
+    background-color: #1C313A;
+    border: 1px solid #1C313A;
+}
+
+.danger {
+    background-color: #D32F2F;
+    border: 1px solid #D32F2F;
+    color: white;
+}
+
+.danger:is(:hover, :focus) {
+    background-color: #9A0007;
+    border: 1px solid #9A0007;
+}

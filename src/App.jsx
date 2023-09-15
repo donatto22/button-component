@@ -1,9 +1,9 @@
-import './App.css'
+import ButtonComponent from "./ButtonComponent"
 
 function App() {
     return (
         <>
-            hola
+            <ButtonComponent />
         </>
     )
 }
